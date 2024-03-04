@@ -7,9 +7,65 @@
     <title>Balatro Wiki</title>
 </head>
 <body>
-   
+    <header>
+
+    </header>
+
+    <nav>
+        <h2>Choose a tab below to search for cards using filters, search using live search, or to be dealt a starting hand of 5 cards
+        </h2>
+
+        <div class="filters">
+            <div class="filter-box">
+                <h3>Sort by...</h3>
+                <div class="checkbox">
+                    <input type="checkbox" id="name" name="name" value="1">
+                    <label for="name">Name</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="rarity" name="rarity" value="1">
+                    <label for="rarity">Rarity</label>
+                </div>
+                <div class="price-lowest">
+                    <input type="checkbox" id="price-lowest" name="price-lowest" value="1">
+                    <label for="price-lowest">Price (Lowest to Highest)</label>
+                </div>
+                <div class="price-highest">
+                    <input type="checkbox" id="price-highest" name="price-highest" value="1">
+                    <label for="price-highest">Price (Highest to Lowest)</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="order" name="order" value="1">
+                    <label for="order">Order in Collection</label>
+                </div>
+            </div>
+            <div class="filter-box">
+                <h3>Include Jokers that help with...</h3>
+                <div class="checkbox">
+                    <input type="checkbox" id="chips" name="chips" value="1">
+                    <label for="chips">Chips</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="plus-mult" name="plus-mult" value="1">
+                    <label for="plus-mult">+ Mult</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="times-mult" name="times-mult" value="1">
+                    <label for="times-mult">X Mult</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="money" name="money" value="1">
+                    <label for="money">Money</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="support" name="support" value="1">
+                    <label for="support">Support</label>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <section id="jokers">
-        
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

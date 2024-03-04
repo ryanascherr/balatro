@@ -4,9 +4,26 @@
   }
 
 #jokers {
+    padding: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 15px;
+
+    @media only screen and (min-width: 450px){
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media only screen and (min-width: 700px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media only screen and (min-width: 992px){
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    @media only screen and (min-width: 1200px){
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 
     .chips {
         color: var(--chips-blue);
@@ -38,6 +55,25 @@
     }
 }
 
-p {
+.filters {
+    border: 2px solid black;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+
+    .filter-box {
+        border: 2px solid black;
+
+        .checkbox:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+body, p, input {
     margin: 0;
+}
+
+nav {
+    padding: 15px;
 }
