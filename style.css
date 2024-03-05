@@ -1,6 +1,11 @@
 :root {
   --chips-blue: #009CFD;
   --mult-red: #FD5F54;
+  --diamond-yellow: #D56B1A;
+  --heart-red: #EC2C33;
+  --spade-purple: #5E579B;
+  --club-blue: #217C75;
+  --proper-orange: #FF7E5E;
 }
 
 #jokers {
@@ -35,6 +40,33 @@
 }
 #jokers .mult {
   color: var(--mult-red);
+  font-weight: bold;
+}
+#jokers .times {
+  background-color: var(--mult-red);
+  color: white;
+  padding: 1px 2px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+#jokers .diamond {
+  color: var(--diamond-yellow);
+  font-weight: bold;
+}
+#jokers .heart {
+  color: var(--heart-red);
+  font-weight: bold;
+}
+#jokers .spade {
+  color: var(--spade-purple);
+  font-weight: bold;
+}
+#jokers .club {
+  color: var(--club-blue);
+  font-weight: bold;
+}
+#jokers .proper {
+  color: var(--proper-orange);
   font-weight: bold;
 }
 #jokers .joker {
