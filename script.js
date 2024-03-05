@@ -360,6 +360,186 @@ const jokers = [
         image: "chaos_the_clown"
     },
     {
+        name: "Fibonacci",
+        rarity: "Uncommon",
+        cost: 0,
+        effect: "Each played <span class='proper'>Ace</span>, <span class='proper'>2</span>, <span class='proper'>3</span>, <span class='proper'>5</span>, or <span class='proper'>8</span> gives <span class='mult'>+8</span> Mult when scored",
+        hasChips: false,
+        hasPlusMult: true,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: "fibonacci"
+    },
+    {
+        name: "Steel Joker",
+        rarity: "Uncommon",
+        cost: 6,
+        effect: "This Joker gains <span class='times'>X0.25</span> Mult for each <span class='proper'>Steel Card</span> in your full deck",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: true,
+        hasMoney: false,
+        hasSupport: false,
+        image: "steel_joker"
+    },
+    {
+        name: "Scary Face",
+        rarity: "Common",
+        cost: 4,
+        effect: "Played <span class='proper'>face</span> cards give <span class='chips'>+30</span> Chips when scored",
+        hasChips: true,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: "scary_face"
+    },
+    {
+        name: "Abstract Joker",
+        rarity: "Common",
+        cost: 4,
+        effect: "<span class='mult'>+3</span> Mult for each <span class='proper'>Joker</span> card",
+        hasChips: false,
+        hasPlusMult: true,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: "abstract_joker"
+    },
+    {
+        name: "Delayed Gratification",
+        rarity: "Common",
+        cost: 4,
+        effect: "Earn <span class='money'>$2</span> per <span class='proper'>discard</span> if no discards are used by end of the round",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: true,
+        hasSupport: false,
+        image: "delayed_gratification"
+    },
+    {
+        name: "Hack",
+        rarity: "Uncommon",
+        cost: 0,
+        effect: "Retrigger each played <span class='proper'>2</span>, <span class='proper'>3</span>, <span class='proper'>4</span>, or <span class='proper'>5</span>",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: true,
+        image: "hack"
+    },
+    {
+        name: "Pareidolia",
+        rarity: "Uncommon",
+        cost: 0,
+        effect: "All cards are considered <span class='proper'>face</span> cards",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: true,
+        image: "pareidolia"
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
+        name: "",
+        rarity: "",
+        cost: 0,
+        effect: "",
+        hasChips: false,
+        hasPlusMult: false,
+        hasTimesMult: false,
+        hasMoney: false,
+        hasSupport: false,
+        image: ""
+    },
+    {
         name: "",
         rarity: "",
         cost: 0,
@@ -427,7 +607,7 @@ function displayJokers() {
         $("#jokers").append(
         `<div class="joker">
           <div class="image">
-            <img src="/img/${joker.image}.png">
+            <img src="./img/${joker.image}.png">
           </div>
           <p><strong>Name:</strong> ${joker.name}</p>
           <p><strong>Rarity:</strong> ${joker.rarity}</p>

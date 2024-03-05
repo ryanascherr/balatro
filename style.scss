@@ -6,6 +6,7 @@
     --spade-purple: #5E579B;
     --club-blue: #217C75;
     --proper-orange: #FF7E5E;
+    --money-yellow: #F4D953;
   }
 
 #jokers {
@@ -61,9 +62,12 @@
         color: var(--club-blue);
         font-weight: bold;
     }
-    
     .proper {
         color: var(--proper-orange);
+        font-weight: bold;
+    }
+    .money {
+        color: var(--money-yellow);
         font-weight: bold;
     }
   
